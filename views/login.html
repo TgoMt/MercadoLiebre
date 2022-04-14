@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link href="/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/login.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="top-header">
+            <a href="/"><img class="logo" src="/images/logo-mercado-liebre.svg" alt="Logo"></a>
+                <div class="buscador">
+                    <form class="form-search content-search navbar-form" action="#" method="POST"></form>
+                    <input type="text" placeholder="Buscar Productos, marcas y más" class="search">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass buscar "></i></button>
+            
+        </div>
+        <!-- <br> -->
+
+        <h4><i class="fa-solid fa-hand-holding-dollar frase"></i>Compra en cuotas y sin tarjeta de credito
+        </h4>
+        </div>
+        <nav>
+            <!-- <div class="barra"> -->
+                <ul class="barra1">
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Tiendas Oficiales</a></li>
+                    <li><a href="#">Vender</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul><br>
+                <ul class="barra2">
+                    <li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                    <li><a href="/login">Ingresa<i class="fa-solid fa-right-to-bracket"></i></a></li>
+                    <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
+                </ul>
+            <!-- </div> -->
+        </nav>
+        <div>
+            <a href="#" class="burger-menu">
+                <i class="fas fa-bars"></i></a>
+        </div><br>
+        <!-- </div> -->
+    </header>
+    <main>
+        <form action="/login" method="POST">
+            <div class="formulario-login">
+                    <input type="text" name="nombre-usuario" id="nombre-usuario" placeholder="Nombre de usuario" required>
+                    <input type="password" name="contraseña" id="contraseña"placeholder="Elegí tu contraseña" required>
+                <!-- <button> -->
+                    <input class="boton-enviar" type="submit" value="Enviar">
+
+        </div>
+        </form>
+        </main>
+
+        <footer>
+            <section>
+                <div class="estructura-footer">
+                    <div class="small-footer">
+                    <i class="fa-solid fa-credit-card icons"></i>
+                    <p class="p2"><strong>Pagá con tarjeta o en efectivo</strong></p>
+                    <p class="p3">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                        puntos de pago. ¡Y siempre es seguro!</p><br>
+                    </div>
+                    <div class="small-footer">
+                    <i class="fa-solid fa-gift icons"></i>
+                    <p class="p2"><strong>Envío gratis desde $ 2.500</strong></p>
+                    <p class="p3">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                        productos. Es un beneficio de Mercado Puntos.</p><br>
+                    </div>
+                    <div class="small-footer">
+                    <i class="fa-solid fa-user-shield icons"></i>
+                    <p class="p2"><strong>Seguridad, de principio a fin</strong></p>
+                    <p class="p3">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                        porque estás siempre protegid@.</p><br>
+                    </div>
+                </div>
+                <p class="p3">Copyright © 1999-2020 MercadoLiebre S.R.L.
+                    <p>
+            </section>
+        </footer>
+</body>
+
+</html>

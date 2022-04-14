@@ -1,0 +1,62 @@
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    padding-top: 15px;
+   background-color: #E5E7E9;
+    font-family: sans-serif;
+    width: 40%;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    margin: auto;
+}
+.formulario label{
+    margin: 2px;
+    padding: 0;
+}
+
+
+main h4{
+    text-align: start;
+    font-weight: bold;
+}
+
+.profile{
+    display: flex;
+    flex-wrap: nowrap;
+    /* align-items: center; */
+    justify-content: space-around;
+    text-align: center;
+}
+
+.interests{
+    
+    margin-bottom: 5px;
+    
+}
+
+.formulario input{
+    margin-bottom: 20px;
+    border: 1px solid white;
+    height: 30px;
+}
+
+.enviar{
+    color: black;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.borrar{
+    color: black;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.enviar:hover,
+ .borrar:hover{
+background-color: blue;
+color: white;
+}
