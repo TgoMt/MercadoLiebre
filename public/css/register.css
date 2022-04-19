@@ -26,7 +26,6 @@ main h4{
 .profile{
     display: flex;
     flex-wrap: nowrap;
-    /* align-items: center; */
     justify-content: space-around;
     text-align: center;
 }

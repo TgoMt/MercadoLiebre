@@ -23,7 +23,6 @@ header {
 
 header nav {
     font-size: 12px;
-    /* margin-left: 20px; */
 }
 
 .logo {
@@ -35,16 +34,36 @@ header nav {
 }
 
 
-header .buscador {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    margin: 0;
-    margin-bottom: 0;
+.busqueda {
     border: white;
+    background-color: white;
+    border-radius: 6px;
+    margin-right: 5px;
+    display: flex;
+    align-items: baseline;
+
+}
+
+
+.lupa {
+    background-color: white;
+    justify-self: flex-end;
+    display: inline;
+}
+
+header button {
+    border: none;
+    background-color: white;
+    margin-right: 5px;
+}
+
+
+.barra-de-busqueda form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    justify-content: center;
 }
 
 
@@ -54,10 +73,11 @@ header .buscador {
 }
 
 .search {
-    width: 300px;
+    width: 400px;
     background-color: white;
-    padding: 5px;
+    padding: 10px;
     border: white;
+    outline: none;
 }
 
 header ul {
@@ -86,7 +106,6 @@ header ul {
 .banner {
     width: 100%;
     height: auto;
-    /* display: block; */
 }
 
 body {
@@ -191,7 +210,6 @@ a {
     display: none;
     margin-top: 20px;
     font-size: 16px;
-    /* font-family: ; */
 }
 
 .precio-descuento {
@@ -292,25 +310,26 @@ footer {
     }
 
 
-nav{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0;
-}
-.barra1{
-    width: 40%;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-}
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0;
+    }
 
-.barra2{
-    width: 40%;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-}
+    .barra1 {
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .barra2 {
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
 
 
     .estructura-footer {
@@ -320,9 +339,13 @@ nav{
         margin-top: 10px;
     }
 
-    .small-footer{
+    .small-footer {
         margin-right: 5px;
         padding: 30px;
+    }
+
+    .fa-solid {
+        margin-bottom: 10px;
     }
 
     main section article .product {
@@ -330,8 +353,18 @@ nav{
         padding: 0;
         transition: display 0.4s;
     }
-    main section article:hover .product{
+
+    main section article:hover .product {
         display: block;
         text-align: center;
     }
+
+    .icons:hover {
+        color: var(--verde);
+
+    }
+
+    /* .icon-product:hover{
+
+    } */
 }
