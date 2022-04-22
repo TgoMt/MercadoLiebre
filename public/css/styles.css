@@ -21,6 +21,11 @@ header {
     padding: 0;
 }
 
+.top-header {
+    padding: 5px;
+    text-align: center;
+}
+
 header nav {
     font-size: 12px;
 }
@@ -67,13 +72,8 @@ header button {
 }
 
 
-.top-header {
-    padding: 5px;
-    text-align: center;
-}
-
 .search {
-    width: 400px;
+    width: 55vw;
     background-color: white;
     padding: 10px;
     border: white;
@@ -196,14 +196,12 @@ a {
 
 .price {
     font-size: 18px;
-    /* width: 30%; */
 }
 
 .discount {
     font-size: 16px;
     color: var(--verde);
     margin-left: 5px;
-    /* width: 70%; */
 }
 
 .product {
@@ -254,7 +252,6 @@ footer {
     }
 
     main section article {
-        /* box-shadow: 0px 0px 10px rgb(100, 100, 100); */
         padding: 0px;
     }
 
@@ -351,7 +348,6 @@ footer {
     main section article .product {
         display: none;
         padding: 0;
-        transition: display 0.4s;
     }
 
     main section article:hover .product {
@@ -363,8 +359,8 @@ footer {
         color: var(--verde);
 
     }
-
-    /* .icon-product:hover{
-
-    } */
+    
+    main section article:hover .icon-product{
+      transform: rotate(-90deg);
+    }
 }

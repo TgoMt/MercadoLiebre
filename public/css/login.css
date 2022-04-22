@@ -15,6 +15,7 @@
     border: 1px solid white;
     width: 80%;
     height: 15%;
+    outline: none;
 }
 
 .boton-enviar{
